@@ -81,7 +81,6 @@ section {
 
 #servicios .contenedor{
     text-align:left;
-  
 }
 #vererinario h3,h4 {
     text-align: left;
@@ -92,6 +91,23 @@ section {
     width: 100%;
     max-width: 280px;
 }
+#contacto {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#historia{
+    text-align: center;
+}
+
+
+#servicio{
+    text-align: center;
+}
+
 #contacto {
     margin-top: 50px;
     color: #fff;
@@ -159,7 +175,6 @@ footer .contenedor{
     .sociales {
         width: auto;
     }
-    
     footer .contenedor {
         justify-content: space-between;
     }
