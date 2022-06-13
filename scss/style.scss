@@ -3,8 +3,8 @@
 @import url(banner.css);
 @import url(nosotros.css);
 @import url(grid.galeria.css);
-@import "variables";
-
+@import 'variables';
+@import 'mixins';
 * {
     margin: 0; 
     padding: 0;
@@ -12,14 +12,14 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: burlywood
+    font-family: $font-title;
+    background-color: $color-base;
 }
 header {
     width: 100%;
     height: 50px;
-    background: #333;
-    color: #fff;
+    background: $color-secundario;
+    color: $colors-primario;
     position: fixed;
     top: 0;
     left: 0;
@@ -112,7 +112,7 @@ section {
 
 #contacto {
     margin-top: 50px;
-    color: #fff;
+    color:$colors-primario;
     text-align: center;
     font-size: 30px;
 }
@@ -146,7 +146,7 @@ section {
 
 #boton{
     background-color: #31384A;
-    color: #fff;
+    color: $colors-primario;
     padding: 20px;
     
     #boton:hover{
@@ -168,7 +168,7 @@ footer .contenedor{
         font-size: 28px;
     }
     .sociales a{
-        color:#333;
+        color:$color-secundario;
         text-decoration: none;
     }
 }
